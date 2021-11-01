@@ -71,6 +71,10 @@ namespace GitHub_test
             double answer = Math.Pow(a, b);
             return answer;
         }
-
+        public int Divide(int a, int b)  // Jonas
+        {
+            int result = a / b;
+            return result;
+        }
     }
 }

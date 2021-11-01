@@ -8,7 +8,7 @@ namespace GitHub_test
         {
             var calc = new Calculator();
 
-            calc.Run();
+            calc.run();
         }
     }
 }

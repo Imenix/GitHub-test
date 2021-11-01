@@ -12,7 +12,7 @@ namespace GitHub_test
             
         }
 
-        private void run()
+        public void run()
         {
             Console.WriteLine("Ange ett tal: ");
             int input1 = int.Parse(Console.ReadLine());
@@ -20,6 +20,15 @@ namespace GitHub_test
             string inputCalc = Console.ReadLine();
             Console.WriteLine("Ange ett andra tal: ");
             int input2 = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Svaret är: " + );
+
+        }
+
+        public int multiply(int input1, int input2)
+        {
+            int answer = input1 * input2;
+                return answer;
 
         }
     }

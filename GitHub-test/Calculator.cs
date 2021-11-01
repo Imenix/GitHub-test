@@ -22,5 +22,12 @@ namespace GitHub_test
             int input2 = int.Parse(Console.ReadLine());
 
         }
+	public int Subtract ( int a, int b)
+	{
+		int result = a- b;
+		return result;
+
+
+	}
     }
 }

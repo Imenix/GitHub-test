@@ -34,7 +34,7 @@ namespace GitHub_test
 		    Console.WriteLine(result);
                     break;
                    case "*" : 
-                    result=Subtract(input1, input2);
+                    result=multiply(input1, input2);
 		    Console.WriteLine(result);
                     break;
 

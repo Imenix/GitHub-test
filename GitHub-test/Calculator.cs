@@ -6,7 +6,7 @@ namespace GitHub_test
     {
         public Calculator()
         {
-            run();  
+            run();
         }
 
         public void run()
@@ -20,10 +20,10 @@ namespace GitHub_test
 
             switch (inputCalc) // Switchar inputCalc
             {
-                case + : 
+                case + :
                     add(input1, input2);
                     break;
-                   case - : 
+                case - :
                     Subtract(input1, input2);
                     break;
                 default:
@@ -36,10 +36,17 @@ namespace GitHub_test
             int answer = a + b;
             return answer;
         }
-	public int Subtract ( int a, int b)  // Jonas
-	{
-		int result = a- b;
-		return result;
-	}
-   }
+        public int Subtract(int a, int b)  // Jonas
+        {
+            int result = a - b;
+            return result;
+        }
+
+        public double powerOf(int a, int b)  // Josefin
+        {
+            double answer = Math.Pow(a, b);
+            return answer;
+        }
+
+    }
 }

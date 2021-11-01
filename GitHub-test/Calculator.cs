@@ -22,17 +22,15 @@ namespace GitHub_test
             int input2 = int.Parse(Console.ReadLine());
         }
 
-        public int add() //Josefin
+        public int add(int a, int b) // Josefin
         {
-            int answer = input1 + input2;
-            Console.WriteLine(answer);
+            int answer = a + b;
+            return answer;
         }
-	public int Subtract ( int a, int b)
+	public int Subtract ( int a, int b)  // Jonas
 	{
 		int result = a- b;
 		return result;
-
-
 	}
     }
 }

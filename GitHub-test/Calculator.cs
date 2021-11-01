@@ -44,22 +44,27 @@ namespace GitHub_test
             }
         }
 
+
+
+
+
+        public int multiply(int input1, int input2)
+        {
+            int answer = input1 * input2;
+            return answer;
+
+        }
         public int add(int a, int b) // Josefin
         {
             int answer = a + b;
             return answer;
+
         }
         public int Subtract(int a, int b)  // Jonas
         {
             int result = a - b;
             return result;
         }
-        public int Divide(int a, int b)  // Jonas
-        {
-            int result = a / b;
-            return result;
-        }
-
 
         public double powerOf(int a, int b)  // Josefin
         {

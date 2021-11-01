@@ -54,6 +54,12 @@ namespace GitHub_test
             int result = a - b;
             return result;
         }
+        public int Divide(int a, int b)  // Jonas
+        {
+            int result = a / b;
+            return result;
+        }
+
 
         public double powerOf(int a, int b)  // Josefin
         {

@@ -6,7 +6,9 @@ namespace GitHub_test
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Team!");
+            var calc = new Calculator();
+
+            calc.Run();
         }
     }
 }

@@ -27,5 +27,12 @@ namespace GitHub_test
             int answer = input1 + input2;
             Console.WriteLine(answer);
         }
+	public int Subtract ( int a, int b)
+	{
+		int result = a- b;
+		return result;
+
+
+	}
     }
 }

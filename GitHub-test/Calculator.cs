@@ -20,16 +20,17 @@ namespace GitHub_test
             string inputCalc = Console.ReadLine();
             Console.WriteLine("Ange ett andra tal: ");
             int input2 = int.Parse(Console.ReadLine());
-
-            Console.WriteLine("Svaret är: " + );
-
         }
 
-        public int multiply(int input1, int input2)
+        public int add(int a, int b) // Josefin
         {
-            int answer = input1 * input2;
-                return answer;
-
+            int answer = a + b;
+            return answer;
         }
+	public int Subtract ( int a, int b)  // Jonas
+	{
+		int result = a- b;
+		return result;
+	}
     }
 }

@@ -76,5 +76,6 @@ namespace GitHub_test
             int result = a / b;
             return result;
         }
+        
     }
 }

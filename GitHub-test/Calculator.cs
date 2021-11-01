@@ -60,10 +60,10 @@ namespace GitHub_test
             return answer;
 
         }
-        public int Subtract(int a, int b)  // Jonas
-        {
-            int result = a - b;
-            return result;
-        }
-    }
+	public int Subtract ( int a, int b)  // Jonas
+	{
+		int result = a- b;
+		return result;
+	}
+   }
 }

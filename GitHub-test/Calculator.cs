@@ -17,15 +17,28 @@ namespace GitHub_test
             string inputCalc = Console.ReadLine();
             Console.WriteLine("Ange ett andra tal: ");
             int input2 = int.Parse(Console.ReadLine());
+	    int result;
 
             switch (inputCalc) // Switchar inputCalc
             {
-                case + : 
-                    add(input1, input2);
+                case "+" : 
+                    result=add(input1, input2);
+		    Console.WriteLine(result);
                     break;
-                   case - : 
-                    Subtract(input1, input2);
+                   case "-" : 
+                    result=Subtract(input1, input2);
                     break;
+
+                case "/" : 
+                    result=Divide(input1, input2);
+		    Console.WriteLine(result);
+                    break;
+                   case "*" : 
+                    result=Subtract(input1, input2);
+		    Console.WriteLine(result);
+                    break;
+
+
                 default:
                     break;
             }

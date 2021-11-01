@@ -6,10 +6,7 @@ namespace GitHub_test
     {
         public Calculator()
         {
-
-            run();
-
-            
+            run();  
         }
 
         public void run()
@@ -21,6 +18,17 @@ namespace GitHub_test
             Console.WriteLine("Ange ett andra tal: ");
             int input2 = int.Parse(Console.ReadLine());
 
+            switch (inputCalc) // Switchar inputCalc
+            {
+                case + : 
+                    add(input1, input2);
+                    break;
+                   case - : 
+                    Subtract(input1, input2);
+                    break;
+                default:
+                    break;
+            }
         }
 
             
@@ -39,10 +47,10 @@ namespace GitHub_test
             return answer;
 
         }
-	    public int subtract ( int a, int b)  // Jonas
-	    {
-		     int result = a- b;
-		    return result;
-	    }
-    }
+	public int Subtract ( int a, int b)  // Jonas
+	{
+		int result = a- b;
+		return result;
+	}
+   }
 }

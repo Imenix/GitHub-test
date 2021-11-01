@@ -60,17 +60,21 @@ namespace GitHub_test
             return answer;
 
         }
-	public int Subtract ( int a, int b)  // Jonas
-	{
-		int result = a- b;
-		return result;
-	}
-
-        public int powerOf(int a, int b) // Josefin, försök 2
+        public int Subtract(int a, int b)  // Jonas
         {
-            int answer = Math.Pow(a + b); // funkar???
-            return answer;
+            int result = a - b;
+            return result;
         }
 
+        public double powerOf(int a, int b)  // Josefin
+        {
+            double answer = Math.Pow(a, b);
+            return answer;
+        }
+        public int Divide(int a, int b)  // Jonas
+        {
+            int result = a / b;
+            return result;
+        }
     }
 }

@@ -65,5 +65,12 @@ namespace GitHub_test
 		int result = a- b;
 		return result;
 	}
-   }
+
+        public int powerOf(int a, int b) // Josefin, försök 2
+        {
+            int answer = Math.Pow(a + b); // funkar???
+            return answer;
+        }
+
+    }
 }

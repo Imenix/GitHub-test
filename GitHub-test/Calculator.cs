@@ -6,10 +6,7 @@ namespace GitHub_test
     {
         public Calculator()
         {
-
-            run();
-
-            
+            run();  
         }
 
         public void run()
@@ -20,6 +17,18 @@ namespace GitHub_test
             string inputCalc = Console.ReadLine();
             Console.WriteLine("Ange ett andra tal: ");
             int input2 = int.Parse(Console.ReadLine());
+
+            switch (inputCalc) // Switchar inputCalc
+            {
+                case + : 
+                    add(input1, input2);
+                    break;
+                   case - : 
+                    Subtract(input1, input2);
+                    break;
+                default:
+                    break;
+            }
         }
 
         public int add(int a, int b) // Josefin
@@ -32,5 +41,5 @@ namespace GitHub_test
 		int result = a- b;
 		return result;
 	}
-    }
+   }
 }

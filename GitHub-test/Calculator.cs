@@ -14,7 +14,13 @@ namespace GitHub_test
 
         private void run()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Ange ett tal: ");
+            int input1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Ange ett räknesätt: ");
+            string inputCalc = Console.ReadLine();
+            Console.WriteLine("Ange ett andra tal: ");
+            int input2 = int.Parse(Console.ReadLine());
+
         }
     }
 }

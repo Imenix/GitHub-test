@@ -44,10 +44,6 @@ namespace GitHub_test
             }
         }
 
-
-
-
-
         public int multiply(int input1, int input2)
         {
             int answer = input1 * input2;
